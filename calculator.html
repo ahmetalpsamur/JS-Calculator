@@ -1,7 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <link rel="stylesheet" href="Style/style.css">
+    </head>
     <body>
-        
+        <p class="p-title">Calculator</p>
+        <div class="div-calc">
+            <div>
+                <p class="p-display"></p>
+            </div>
+            <div>
+                <div class="div-button">
+                    <button onclick="addExpression('1')" class="button-number">1</button>
+                    <button onclick="addExpression('2')" class="button-number">2</button>
+                    <button onclick="addExpression('3')" class="button-number">3</button>
+                    <button onclick="addExpression('+')" class="button-expression">+</button>
+                </div>
+                <div class="div-button">
+                    <button onclick="addExpression('4')" class="button-number">4</button>
+                    <button onclick="addExpression('5')" class="button-number">5</button>
+                    <button onclick="addExpression('6')" class="button-number">6</button>
+                    <button onclick="addExpression('-')" class="button-expression">-</button>
+                </div>
+                <div class="div-button">
+                    <button onclick="addExpression('7')" class="button-number">7</button>
+                    <button onclick="addExpression('8')" class="button-number">8</button>
+                    <button onclick="addExpression('9')" class="button-number">9</button>
+                    <button onclick="addExpression('*')" class="button-expression">*</button>
+                </div>
+                <div class="div-button">
+                    <button onclick="addExpression('0')" class="button-number">0</button>
+                    <button onclick="addExpression('.')" class="button-number">.</button>
+                    <button onclick="calculate()" class="button-number">=</button>
+                    <button onclick="addExpression('/')" class="button-expression">/</button>
+                </div>
+                <div>
+                    <button onclick="clearDisplay()" class="button-number">clear</button>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="script.js"></script>
     </body>
 </html>

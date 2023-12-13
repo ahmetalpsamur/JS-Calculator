@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+.p-title{
+    font-size: 36px;
+    font-family: Arial;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.button-number{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: Arial;
+    margin-right: 3px;
+}
+.button-expression{
+    background-color: rgb(254, 160, 10);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: Arial;
+    margin-right: 3px;
+}
+.p-display{
+    color: white;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+.div-calc{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.div-button{
+    margin-bottom: 7px;
+}
